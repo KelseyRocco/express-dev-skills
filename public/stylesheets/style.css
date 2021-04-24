@@ -4,8 +4,10 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #80dbff;
+  text-decoration: none;
 }
+
 
 .delete-form {
   display: inline-block;

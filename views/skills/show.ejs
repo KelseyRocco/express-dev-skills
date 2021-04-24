@@ -13,6 +13,7 @@
     <h1>Skill #<%= skill.id %></h1>
     <h3><%= skill.skill %></h3>
 
+
         <li>
             <form action="/skills/<%= skill.id%>?_method=DELETE" class="delete-form" method="POST">
                 <button type="submit">Delete</button>
